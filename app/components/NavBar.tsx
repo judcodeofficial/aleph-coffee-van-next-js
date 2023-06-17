@@ -4,7 +4,7 @@ export default function NavBar({ navBarColor, navBarBgColor, navBarTitleBorderCo
 			<div className={'container flex justify-between items-center mx-auto'}>
 				<a href="menu" className={'block font-hauora uppercase'}>Menu</a>
 				<a href="gallery" className={'block font-hauora uppercase'}>Gallery</a>
-				<a href="aleph-coffee-van-next-js/" className={`block text-center ${navBarTitleBorderColor}`}>
+				<a href="/aleph-coffee-van-next-js" className={`block text-center ${navBarTitleBorderColor}`}>
 					<div className={'font-hauora animate__animated animate__fadeIn'}>ALEPH</div>
 					<div className={'font-oswald font-bold text-4xl animate__animated animate__swing'}>COFFEE</div>
 				</a>
