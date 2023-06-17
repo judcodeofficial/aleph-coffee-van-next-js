@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       <NavBar navBarColor={navBarColor} navBarBgColor={navBarBgColor} navBarTitleBorderColor={navBarTitleBorderColor} />
-      <section className={'slides flex min-h-screen items-center overflow-x-hidden'}>
+      <section className={`${navBarBgColor} slides flex min-h-screen items-center overflow-x-hidden`}>
         <FirstSlide sliderPosition={sliderPosition}/>
         <SecondSlide />
         <ThirdSlide />

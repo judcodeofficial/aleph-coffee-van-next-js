@@ -13,7 +13,6 @@ export default function Gallery() {
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/005.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/006.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/007.jpg',
-		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/009.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/011.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/012.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/013.jpg',
