@@ -27,7 +27,7 @@ export default function Gallery() {
 
       <section className={'slides flex min-h-screen items-center overflow-x-hidden'}>
         <section className={'min-h-full h-screen pt-28 min-w-full bg-jud-brown overflow-y-auto'}>
-					<section className={'container mx-auto flex md:align-items-center flex-col px-6 '}>
+					<section className={'container mx-auto flex md:align-items-center flex-col px-6 max-w-6xl'}>
 						<section className={'my-4 text-center mb-6'}>
 							<div className={'jud-text pb-1 text-jud-warning animate__animated animate__slideInDown'}>GALLERY</div>
 							<div className={'jud-title text-jud-beige pt-1 animate__animated animate__flipInX uppercase'}>one picture is worth a thousand words</div>
