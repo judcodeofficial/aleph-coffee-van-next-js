@@ -68,7 +68,7 @@ export default function ThirdSlide() {
 						/>
 					</section>
 
-					<p className={'text-jud-beige font-hauora pt-4'}>The founder of Aleph Coffee, a former English teacher and lifelong coffee lover, turned his passion for exploring different types of coffee and perfecting his brewing skills into a business. Aleph Coffee aims to exceed their customers' expectations and satisfy their coffee cravings, while also valuing the connection and conversation that comes with being a barista. They recommend trying their locally roasted Witham's Coffee beans to elevate any celebration and support the community.</p>
+					<p className={'text-jud-beige font-hauora pt-4'}>The founder of Aleph Coffee, a former English teacher and lifelong coffee lover, turned his passion for exploring different types of coffee and perfecting his brewing skills into a business. Aleph Coffee aims to exceed their customers&apos; expectations and satisfy their coffee cravings, while also valuing the connection and conversation that comes with being a barista. They recommend trying their locally roasted Witham&apos;s Coffee beans to elevate any celebration and support the community.</p>
 				</section>
 			</section>
 		</section>

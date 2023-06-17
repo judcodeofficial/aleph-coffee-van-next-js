@@ -37,7 +37,7 @@ export default function Gallery() {
 						</section>
 
 						<section className={'columns-2 lg:columns-3 w-full mb-6'}>
-							{ imageList.map((imgUrl, index) => <a href={imgUrl} target="_blank"><Image
+							{ imageList.map((imgUrl, index) => <a href={imgUrl} target="_blank" key={index}><Image
 									src={imgUrl}
 									layout="responsive"
 									width="200"

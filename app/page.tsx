@@ -46,12 +46,12 @@ export default function Home() {
   ]
 
   const totalSlides = 3
-  const [sliderPosition, setSliderPosition] = useState('0')
-  const [navBarColor, setNavBarColor] = useState('text-jud-beige')
-  const [navBarBgColor, setNavBarBgColor] = useState('bg-jud-brown')
-  const [navBarTitleBorderColor, setNavBarTitleBorderColor] = useState('border-b-4 border-jud-sunset py-4')
-  const [arrowColor, setArrowColor] = useState('text-jud-beige')
-  const [footerColor, setFooterColor] = useState('bg-jud-brown text-jud-sunset')
+  const [sliderPosition, setSliderPosition] = useState<any>('0')
+  const [navBarColor, setNavBarColor] = useState<any>('text-jud-beige')
+  const [navBarBgColor, setNavBarBgColor] = useState<any>('bg-jud-brown')
+  const [navBarTitleBorderColor, setNavBarTitleBorderColor] = useState<any>('border-b-4 border-jud-sunset py-4')
+  const [arrowColor, setArrowColor] = useState<any>('text-jud-beige')
+  const [footerColor, setFooterColor] = useState<any>('bg-jud-brown text-jud-sunset')
 
   function prevSlide() {
     let prevSlide = parseInt(sliderPosition) - 1;
