@@ -7,18 +7,18 @@ import Image from 'next/image'
 
 export default function Gallery() {
 	const imageList = [
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/001.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/002.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/003.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/004.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/005.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/006.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/007.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/009.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/010.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/011.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/012.jpg',
-		'https://alephcoffee.github.io/AlephCoffeeVan/Resources/slider/013.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/001.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/002.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/003.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/004.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/005.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/006.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/007.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/009.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/010.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/011.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/012.jpg',
+		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/013.jpg',
 	]
 	const [navBarColor, setNavBarColor] = useState('text-jud-beige')
   const [navBarBgColor, setNavBarBgColor] = useState('bg-jud-brown')
