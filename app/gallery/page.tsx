@@ -8,14 +8,12 @@ import Image from 'next/image'
 export default function Gallery() {
 	const imageList = [
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/001.jpg',
-		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/002.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/003.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/004.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/005.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/006.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/007.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/009.jpg',
-		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/010.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/011.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/012.jpg',
 		'https://raw.githubusercontent.com/judcodeofficial/aleph-coffee-van-next-js/main/public/013.jpg',
