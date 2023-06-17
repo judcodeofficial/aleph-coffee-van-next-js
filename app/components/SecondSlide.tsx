@@ -4,7 +4,7 @@ import sixthImage from '../../public/006.jpg'
 
 export default function SecondSlide() {
 	return (
-		<section className={'min-h-full pt-28 min-w-full overflow-y-auto pb-24'}>
+		<section className={'min-h-full pt-14 min-w-full overflow-y-auto pb-24'}>
 			<section className={'container max-w-5xl mx-auto flex md:align-items-center flex-wrap-reverse px-6'}>
 				<div className={'mt-2 md:mt-0'}>
 					<div className={'jud-title text-jud-brown'}>
