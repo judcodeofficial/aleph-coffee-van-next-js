@@ -7,7 +7,7 @@ import twelfthImage from '../../public/012.jpg'
 
 export default function ThirdSlide() {
 	return (
-		<section className={'min-h-full h-screen pt-28 min-w-full bg-jud-brown overflow-y-auto'}>
+		<section className={'min-h-full h-screen pt-24 min-w-full bg-jud-brown overflow-y-auto'}>
 			<section className={'container max-w-5xl mx-auto flex md:align-items-center flex-col px-6'}>
 				<div className={'jud-text pb-0 text-jud-warning font-oswald'}>ABOUT US</div>
 
