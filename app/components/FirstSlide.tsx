@@ -2,7 +2,7 @@ import Image from 'next/image'
 import firstImage from '../../public/01.jpg'
 import eightImage from '../../public/008.jpg'
 
-export default function FirstSlide({ sliderPosition : string }) {
+export default function FirstSlide({ sliderPosition } : { sliderPosition : string }) {
 	const slidePos = sliderPosition * -100;
 	return (
 		<section className={'min-h-full h-screen pt-28 min-w-full bg-jud-brown'} style={{ marginLeft: slidePos + '%' }}>
