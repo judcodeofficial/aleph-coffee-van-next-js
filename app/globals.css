@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: nordique;
+  src: url(../public/webfonts/FontsFree-Net-Nordique-Pro-Bold.ttf);
+}
+@font-face {
+  font-family: Hauora;
+  src: url(../public/webfonts/Hauora-Regular.otf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../public/webfonts/Oswald-VariableFont_wght.ttf);
+}
+
+@layer components {
+	.navbar-active {
+		@apply border-b-4 border-jud-brown py-4;
+	}
+	.jud-title {
+		@apply font-nordique text-6xl py-4;
+	}
+	.jud-subtitle {
+		@apply font-hauora text-xl py-2;
+	}
+	.jud-text {
+		@apply font-hauora text-lg py-2;
+	}
+}
+
+.font-nordiquee {
+	font-family: nordique!important;
+}
+.font-oswald {
+	font-family: oswald!important;
+}
