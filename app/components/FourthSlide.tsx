@@ -35,7 +35,7 @@ export default function FourthSlide() {
   ]
 
 	return (
-		<section className={'min-h-full h-screen pt-24 min-w-full bg-jud-brown overflow-y-auto'}>
+		<section className={'min-h-full h-screen min-w-full bg-jud-brown overflow-y-auto'}>
 			<section className={'container mx-auto flex md:align-items-center flex-col px-6 max-w-6xl'}>
 				<section className={'my-4'}>
 					<div className={'jud-text pb-1 text-jud-warning'}>REVIEWS</div>
