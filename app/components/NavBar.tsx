@@ -1,4 +1,4 @@
-export default function NavBar({ navBarColor, navBarBgColor, navBarTitleBorderColor }) {
+export default function NavBar({ navBarColor, navBarBgColor, navBarTitleBorderColor } : { navBarColor : string, navBarBgColor : string, navBarTitleBorderColor : string }) {
 	return (
 		<section className={`${navBarColor} ${navBarBgColor} w-full absolute px-4 z-20`}>
 			<div className={'container flex justify-between items-center mx-auto'}>
