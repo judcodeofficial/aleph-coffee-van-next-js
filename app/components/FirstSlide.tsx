@@ -5,7 +5,7 @@ import eightImage from '../../public/008.jpg'
 export default function FirstSlide({ sliderPosition } : { sliderPosition : number }) {
 	const slidePos = sliderPosition * -100;
 	return (
-		<section className={'min-h-full pt-14 h-screen min-w-full bg-jud-brown'} style={{ marginLeft: slidePos + '%' }}>
+		<section className={'min-h-full pt-20 h-screen min-w-full bg-jud-brown'} style={{ marginLeft: slidePos + '%' }}>
 			<section className={'container mx-auto flex md:align-items-center flex-col px-6 max-w-5xl'}>
 				<section className={'text-center my-4'}>
 					<div className={'jud-text pb-1 text-jud-warning animate__animated animate__fadeInDown'}>WELCOME TO ALPHI COFFEE VAN</div>
